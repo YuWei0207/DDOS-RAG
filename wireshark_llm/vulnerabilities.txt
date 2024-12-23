@@ -1,0 +1,294 @@
+[
+    {
+        "CVE ID": "CVE-2024-54159",
+        "Summary": "stalld through 1.19.7 allows local users to cause a denial of service (file overwrite) via a /tmp/rtthrottle symlink attack."
+    },
+    {
+        "CVE ID": "CVE-2024-54130",
+        "Summary": "The NASA’s Interplanetary Overlay Network (ION) is an implementation of Delay/Disruption Tolerant Networking (DTN). A segmentation fault occurs with ION-DTN BPv7 software version 4.1.3 when a bundle with a Destination Endpoint ID (EID) set to dtn:none is received. This causes the node to become unresponsive to incoming bundles, leading to a Denial of Service (DoS) condition. This vulnerability is fixed in 4.1.3s."
+    },
+    {
+        "CVE ID": "CVE-2024-53984",
+        "Summary": "Nanopb is a small code-size Protocol Buffers implementation.  When the compile time option PB_ENABLE_MALLOC is enabled, the message contains at least one field with FT_POINTER field type, custom stream callback is used with unknown stream length. and the pb_decode_ex() function is used with flag PB_DECODE_DELIMITED, then the pb_decode_ex() function does not automatically call pb_release(), like is done for other failure cases. This could lead to memory leak and potential denial-of-service. This vulnerability is fixed in 0.4.9.1."
+    },
+    {
+        "CVE ID": "CVE-2024-53981",
+        "Summary": "python-multipart is a streaming multipart parser for Python. When parsing form data, python-multipart skips line breaks (CR \\r or LF \\n) in front of the first boundary and any tailing bytes after the last boundary. This happens one byte at a time and emits a log event each time, which may cause excessive logging for certain inputs. An attacker could abuse this by sending a malicious request with lots of data before the first or after the last boundary, causing high CPU load and stalling the processing thread for a significant amount of time. In case of ASGI application, this could stall the event loop and prevent other requests from being processed, resulting in a denial of service (DoS). This vulnerability is fixed in 0.0.18."
+    },
+    {
+        "CVE ID": "CVE-2024-53907",
+        "Summary": "An issue was discovered in Django 5.1 before 5.1.4, 5.0 before 5.0.10, and 4.2 before 4.2.17. The strip_tags() method and striptags template filter are subject to a potential denial-of-service attack via certain inputs containing large sequences of nested incomplete HTML entities."
+    },
+    {
+        "CVE ID": "CVE-2024-53901",
+        "Summary": "The Imager package before 1.025 for Perl has a heap-based buffer overflow leading to denial of service, or possibly unspecified other impact, when the trim() method is called on a crafted input image."
+    },
+    {
+        "CVE ID": "CVE-2024-53861",
+        "Summary": "pyjwt is a JSON Web Token implementation in Python. An incorrect string comparison is run for `iss` checking, resulting in `\"acb\"` being accepted for `\"_abc_\"`. This is a bug introduced in version 2.10.0: checking the \"iss\" claim changed from `isinstance(issuer, list)` to `isinstance(issuer, Sequence)`. Since str is a Sequnce, but not a list, `in` is also used for string comparison. This results in `if \"abc\" not in \"__abcd__\":` being checked instead of `if \"abc\" != \"__abc__\":`. Signature checks are still present so real world impact is likely limited to denial of service scenarios. This issue has been patched in version 2.10.1. All users are advised to upgrade. There are no known workarounds for this vulnerability."
+    },
+    {
+        "CVE ID": "CVE-2024-53432",
+        "Summary": "While parsing certain malformed PLY files, PCL version 1.14.1 crashes due to an uncaught std::out_of_range exception in PCLPointCloud2::at. This issue could potentially be exploited to cause a denial-of-service (DoS) attack when processing untrusted PLY files."
+    },
+    {
+        "CVE ID": "CVE-2024-52920",
+        "Summary": "Bitcoin Core before 0.20.0 allows remote attackers to cause a denial of service (infinite loop) via a malformed GETDATA message."
+    },
+    {
+        "CVE ID": "CVE-2024-52918",
+        "Summary": "Bitcoin-Qt in Bitcoin Core before 0.20.0 allows remote attackers to cause a denial of service (memory consumption and application crash) via a BIP21 r parameter for a URL that has a large file."
+    },
+    {
+        "CVE ID": "CVE-2024-52916",
+        "Summary": "Bitcoin Core before 0.15.0 allows a denial of service (OOM kill of a daemon process) via a flood of minimum difficulty headers."
+    },
+    {
+        "CVE ID": "CVE-2024-52915",
+        "Summary": "Bitcoin Core before 0.20.0 allows remote attackers to cause a denial of service (memory consumption) via a crafted INV message."
+    },
+    {
+        "CVE ID": "CVE-2024-52810",
+        "Summary": "@intlify/shared is a shared library for the intlify project. The latest version of @intlify/shared (10.0.4) is vulnerable to Prototype Pollution through the entry function(s) lib.deepCopy. An attacker can supply a payload with Object.prototype setter to introduce or modify properties within the global prototype chain, causing denial of service (DoS) as the minimum consequence. Moreover, the consequences of this vulnerability can escalate to other injection-based attacks, depending on how the library integrates within the application. For instance, if the polluted property propagates to sensitive Node.js APIs (e.g., exec, eval), it could enable an attacker to execute arbitrary commands within the application's context. This issue has been addressed in versions 9.14.2, and 10.0.5. Users are advised to upgrade. There are no known workarounds for this vulnerability."
+    },
+    {
+        "CVE ID": "CVE-2024-52805",
+        "Summary": "Synapse is an open-source Matrix homeserver. In Synapse before 1.120.1, multipart/form-data requests can in certain configurations transiently increase memory consumption beyond expected levels while processing the request, which can be used to amplify denial of service attacks. Synapse 1.120.1 resolves the issue by denying requests with unsupported multipart/form-data content type."
+    },
+    {
+        "CVE ID": "CVE-2024-52797",
+        "Summary": "Opencast is free and open source software for automated video capture and distribution. First noticed in Opencast 13 and 14, Opencast's Elasticsearch integration may generate syntactically invalid Elasticsearch queries in relation to previously acceptable search queries. From Opencast version 11.4 and newer, Elasticsearch queries are retried a configurable number of times in the case of error to handle temporary losses of connection to Elasticsearch. These invalid queries would fail, causing the retry mechanism to begin requerying with the same syntactically invalid query immediately, in an infinite loop. This causes a massive increase in log size which can in some cases cause a denial of service due to disk exhaustion.\n\nOpencast 13.10 and Opencast 14.3 contain patches which address the base issue, with Opencast 16.7 containing changes which harmonize the search behaviour between the admin UI and external API. Users are strongly recommended to upgrade as soon as possible if running versions prior to 13.10 or 14.3. While the relevant endpoints require (by default) `ROLE_ADMIN` or `ROLE_API_SERIES_VIEW`, the problem queries are otherwise innocuous. This issue could be easily triggered by normal administrative work on an affected Opencast system. Those who run a version newer than 13.10 and 14.3 and see different results when searching in their admin UI vs your external API or LMS, may resolve the issue by upgrading to 16.7. No known workarounds for the vulnerability are available."
+    },
+    {
+        "CVE ID": "CVE-2024-52796",
+        "Summary": "Password Pusher, an open source application to communicate sensitive information over the web, comes with a configurable rate limiter.  In versions prior to v1.49.0, the rate limiter could be bypassed by forging proxy headers allowing bad actors to send unlimited traffic to the site potentially causing a denial of service. In v1.49.0, a fix was implemented to only authorize proxies on local IPs which resolves this issue. As a workaround, one may add rules to one's proxy and/or firewall to not accept external proxy headers such as `X-Forwarded-*` from clients."
+    },
+    {
+        "CVE ID": "CVE-2024-52613",
+        "Summary": "A heap-based buffer under-read in tsMuxer version nightly-2024-05-12-02-01-18 allows attackers to cause Denial of Service (DoS) via a crafted MOV video file."
+    },
+    {
+        "CVE ID": "CVE-2024-52524",
+        "Summary": "Giskard is an evaluation and testing framework for AI systems. A Remote Code Execution (ReDoS) vulnerability was discovered in Giskard component by the GitHub Security Lab team. When processing datasets with specific text patterns with Giskard detectors, this vulnerability could trigger exponential regex evaluation times, potentially leading to denial of service. Giskard versions prior to 2.15.5 are affected."
+    },
+    {
+        "CVE ID": "CVE-2024-52030",
+        "Summary": "Netgear R7000P v1.3.3.154 was discovered to contain a stack overflow via the pptp_user_netmask parameter at ru_wan_flow.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-52029",
+        "Summary": "Netgear R7000P v1.3.3.154 was discovered to contain a stack overflow via the pptp_user_netmask parameter at genie_pptp.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-52028",
+        "Summary": "Netgear R7000P v1.3.3.154 was discovered to contain a stack overflow via the pptp_user_netmask parameter at wiz_pptp.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-52026",
+        "Summary": "Netgear XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 was discovered to contain a stack overflow via the pppoe_localip parameter at bsw_pppoe.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-52025",
+        "Summary": "Netgear XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 was discovered to contain a stack overflow via the pppoe_localip parameter at geniepppoe.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-52024",
+        "Summary": "Netgear XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 was discovered to contain a stack overflow via the pppoe_localip parameter at wizpppoe.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-52023",
+        "Summary": "Netgear XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 was discovered to contain a stack overflow via the pppoe_localip parameter at pppoe2.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-52017",
+        "Summary": "Netgear XR300 v1.0.3.78 was discovered to contain a stack overflow via the passphrase parameter at bridge_wireless_main.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-52016",
+        "Summary": "Netgear R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 were discovered to multiple stack overflow vulnerabilities in the component wlg_adv.cgi via the apmode_dns1_pri and apmode_dns1_sec parameters. These vulnerabilities allow attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-52015",
+        "Summary": "Netgear R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 were discovered to contain a stack overflow via the pptp_user_ip parameter at bsw_pptp.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-52014",
+        "Summary": "Netgear R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 were discovered to contain a stack overflow via the pptp_user_ip parameter at genie_pptp.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-52013",
+        "Summary": "Netgear R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 were discovered to contain a stack overflow via the pptp_user_ip parameter at wiz_pptp.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51766",
+        "Summary": "A potential security vulnerability has been identified in the HPE NonStop DISK UTIL (T9208) product. This vulnerability could be exploited to cause a denial of service (DoS) to NonStop server. It exists in all prior DISK UTIL product versions of L-series and J-series."
+    },
+    {
+        "CVE ID": "CVE-2024-51727",
+        "Summary": "Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x contains a feature that could enable attackers to invalidate a legitimate user's session and cause a denial-of-service attack on a user's account."
+    },
+    {
+        "CVE ID": "CVE-2024-51428",
+        "Summary": "An issue in Espressif Esp idf v5.3.0 allows attackers to cause a Denial of Service (DoS) via a crafted data channel packet."
+    },
+    {
+        "CVE ID": "CVE-2024-51409",
+        "Summary": "Buffer Overflow vulnerability in Tenda O3 v.1.0.0.5 allows a remote attacker to cause a denial of service via a network packet in a fixed format to a router running the corresponding version of the firmware."
+    },
+    {
+        "CVE ID": "CVE-2024-51179",
+        "Summary": "An issue in Open 5GS v.2.7.1 allows a remote attacker to cause a denial of service via the Network Function Virtualizations (NFVs) such as the User Plane Function (UPF) and the Session Management Function (SMF), The Packet Data Unit (PDU) session establishment process."
+    },
+    {
+        "CVE ID": "CVE-2024-51072",
+        "Summary": "An issue in KIA Seltos vehicle instrument cluster with software and hardware v1.0 allows attackers to cause a Denial of Service (DoS) via ECU reset UDS service."
+    },
+    {
+        "CVE ID": "CVE-2024-51022",
+        "Summary": "Netgear XR300 v1.0.3.78 was discovered to contain a stack overflow via the ssid parameter in bridge_wireless_main.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51020",
+        "Summary": "Netgear R7000P v1.3.3.154 was discovered to contain a stack overflow via the apn parameter at usbISP_detail_edit.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51019",
+        "Summary": "Netgear R7000P v1.3.3.154 was discovered to contain a stack overflow via the pppoe_localnetmask parameter at pppoe.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51018",
+        "Summary": "Netgear R7000P v1.3.3.154 was discovered to contain a stack overflow via the pptp_user_netmask parameter at pptp.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51017",
+        "Summary": "Netgear R7000P v1.3.3.154 was discovered to contain a stack overflow via the l2tp_user_netmask parameter at l2tp.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51016",
+        "Summary": "Netgear XR300 v1.0.3.78 was discovered to contain a stack overflow via the addName%d parameter in usb_approve.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51014",
+        "Summary": "Netgear XR300 v1.0.3.78 was discovered to contain a stack overflow via the ssid_an parameter in bridge_wireless_main.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51013",
+        "Summary": "Netgear R7000P v1.3.3.154 was discovered to contain a stack overflow via the RADIUSAddr%d_wla parameter at wireless.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51012",
+        "Summary": "Netgear R8500 v1.0.2.160 was discovered to contain a stack overflow via the ipv6_pri_dns parameter at ipv6_fix.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51011",
+        "Summary": "Netgear XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 was discovered to contain a stack overflow via the pppoe_localip parameter at pppoe.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51007",
+        "Summary": "Netgear XR300 v1.0.3.78 was discovered to contain a stack overflow via the passphrase parameter at wireless.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51006",
+        "Summary": "Netgear R8500 v1.0.2.160 was discovered to contain a stack overflow via the ipv6_static_ip parameter in the ipv6_tunnel function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51004",
+        "Summary": "Netgear R8500 v1.0.2.160 and R7000P v1.3.3.154 were discovered to multiple stack overflow vulnerabilities in the component usb_device.cgi via the cifs_user, read_access, and write_access parameters. These vulnerabilities allow attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51003",
+        "Summary": "Netgear R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 were discovered to multiple stack overflow vulnerabilities in the component ap_mode.cgi via the apmode_dns1_pri and apmode_dns1_sec parameters. These vulnerabilities allow attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51002",
+        "Summary": "Netgear R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 were discovered to contain a stack overflow via the l2tp_user_ip parameter at l2tp.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51001",
+        "Summary": "Netgear R8500 v1.0.2.160 was discovered to contain a stack overflow via the sysDNSHost parameter at ddns.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-51000",
+        "Summary": "Netgear R8500 v1.0.2.160 was discovered to contain multiple stack overflow vulnerabilities in the component wireless.cgi via the opmode, opmode_an, and opmode_an_2 parameters. These vulnerabilities allow attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-50998",
+        "Summary": "Netgear R8500 v1.0.2.160 was discovered to contain multiple stack overflow vulnerabilities in the component openvpn.cgi via the openvpn_service_port and openvpn_service_port_tun parameters. These vulnerabilities allow attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-50997",
+        "Summary": "Netgear R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 were discovered to contain a stack overflow via the pptp_user_ip parameter at pptp.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-50996",
+        "Summary": "Netgear R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 were discovered to contain a stack overflow via the bpa_server parameter at genie_bpa.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-50995",
+        "Summary": "Netgear R8500 v1.0.2.160 was discovered to contain a stack overflow via the share_name parameter at usb_remote_smb_conf.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-50994",
+        "Summary": "Netgear R8500 v1.0.2.160 was discovered to contain multiple stack overflow vulnerabilities in the component ipv6_fix.cgi via the ipv6_wan_ipaddr, ipv6_lan_ipaddr, ipv6_wan_length, and ipv6_lan_length parameters. These vulnerabilities allow attackers to cause a Denial of Service (DoS) via a crafted POST request."
+    },
+    {
+        "CVE ID": "CVE-2024-50956",
+        "Summary": "A buffer overflow in the RecvSocketData function of Inovance HCPLC_AM401-CPU1608TPTN 21.38.0.0, HCPLC_AM402-CPU1608TPTN 41.38.0.0, and HCPLC_AM403-CPU1608TN 81.38.0.0 allows attackers to cause a Denial of Service (DoS) or execute arbitrary code via a crafted Modbus message."
+    },
+    {
+        "CVE ID": "CVE-2024-50955",
+        "Summary": "An issue in how XINJE XD5E-24R and XL5E-16T v3.5.3b handles TCP protocol messages allows attackers to cause a Denial of Service (DoS) via a crafted TCP message."
+    },
+    {
+        "CVE ID": "CVE-2024-50948",
+        "Summary": "An issue in mochiMQTT v2.6.3 allows attackers to cause a Denial of Service (DoS) via a crafted request."
+    },
+    {
+        "CVE ID": "CVE-2024-50947",
+        "Summary": "An issue in kmqtt v0.2.7 allows attackers to cause a Denial of Service (DoS) via a crafted request."
+    },
+    {
+        "CVE ID": "CVE-2024-50558",
+        "Summary": "A vulnerability has been identified in RUGGEDCOM RM1224 LTE(4G) EU (6GK6108-4AM00-2BA2) (All versions < V8.2), RUGGEDCOM RM1224 LTE(4G) NAM (6GK6108-4AM00-2DA2) (All versions < V8.2), SCALANCE M804PB (6GK5804-0AP00-2AA2) (All versions < V8.2), SCALANCE M812-1 ADSL-Router (6GK5812-1AA00-2AA2) (All versions < V8.2), SCALANCE M812-1 ADSL-Router (6GK5812-1BA00-2AA2) (All versions < V8.2), SCALANCE M816-1 ADSL-Router (6GK5816-1AA00-2AA2) (All versions < V8.2), SCALANCE M816-1 ADSL-Router (6GK5816-1BA00-2AA2) (All versions < V8.2), SCALANCE M826-2 SHDSL-Router (6GK5826-2AB00-2AB2) (All versions < V8.2), SCALANCE M874-2 (6GK5874-2AA00-2AA2) (All versions < V8.2), SCALANCE M874-3 (6GK5874-3AA00-2AA2) (All versions < V8.2), SCALANCE M874-3 3G-Router (CN) (6GK5874-3AA00-2FA2) (All versions < V8.2), SCALANCE M876-3 (6GK5876-3AA02-2BA2) (All versions < V8.2), SCALANCE M876-3 (ROK) (6GK5876-3AA02-2EA2) (All versions < V8.2), SCALANCE M876-4 (6GK5876-4AA10-2BA2) (All versions < V8.2), SCALANCE M876-4 (EU) (6GK5876-4AA00-2BA2) (All versions < V8.2), SCALANCE M876-4 (NAM) (6GK5876-4AA00-2DA2) (All versions < V8.2), SCALANCE MUM853-1 (A1) (6GK5853-2EA10-2AA1) (All versions < V8.2), SCALANCE MUM853-1 (B1) (6GK5853-2EA10-2BA1) (All versions < V8.2), SCALANCE MUM853-1 (EU) (6GK5853-2EA00-2DA1) (All versions < V8.2), SCALANCE MUM856-1 (A1) (6GK5856-2EA10-3AA1) (All versions < V8.2), SCALANCE MUM856-1 (B1) (6GK5856-2EA10-3BA1) (All versions < V8.2), SCALANCE MUM856-1 (CN) (6GK5856-2EA00-3FA1) (All versions < V8.2), SCALANCE MUM856-1 (EU) (6GK5856-2EA00-3DA1) (All versions < V8.2), SCALANCE MUM856-1 (RoW) (6GK5856-2EA00-3AA1) (All versions < V8.2), SCALANCE S615 EEC LAN-Router (6GK5615-0AA01-2AA2) (All versions < V8.2), SCALANCE S615 LAN-Router (6GK5615-0AA00-2AA2) (All versions < V8.2). Affected devices improperly manage access control for read-only users. This could allow an attacker to cause a temporary denial of service condition."
+    },
+    {
+        "CVE ID": "CVE-2024-50386",
+        "Summary": "Account users in Apache CloudStack by default are allowed to register templates to be downloaded directly to the primary storage for deploying instances. Due to missing validation checks for KVM-compatible templates in CloudStack 4.0.0 through 4.18.2.4 and 4.19.0.0 through 4.19.1.2, an attacker that can register templates, can use them to deploy malicious instances on KVM-based environments and exploit this to gain access to the host filesystems that could result in the compromise of resource integrity and confidentiality, data loss, denial of service, and availability of KVM-based infrastructure managed by CloudStack.\n\n\nUsers are recommended to upgrade to Apache CloudStack 4.18.2.5 or 4.19.1.3, or later, which addresses this issue. \n\nAdditionally, all user-registered KVM-compatible templates can be scanned and checked that they are flat files that should not be using any additional or unnecessary features. For example, operators can run the following command on their file-based primary storage(s) and inspect the output. An empty output for the disk being validated means it has no references to the host filesystems; on the other hand, if the output for the disk being validated is not empty, it might indicate a compromised disk. However, bear in mind that (i) volumes created from templates will have references for the templates at first and (ii) volumes can be consolidated while migrating, losing their references to the templates. Therefore, the command execution for the primary storages can show both false positives and false negatives.\n\n\nfor file in $(find /path/to/storage/ -type f -regex [a-f0-9\\-]*.*); do echo \"Retrieving file [$file] info. If the output is not empty, that might indicate a compromised disk; check it carefully.\"; qemu-img info -U $file | grep file: ; printf \"\\n\\n\"; done\nFor checking the whole template/volume features of each disk, operators can run the following command:\n\n\nfor file in $(find /path/to/storage/ -type f -regex [a-f0-9\\-]*.*); do echo \"Retrieving file [$file] info.\"; qemu-img info -U $file; printf \"\\n\\n\"; done"
+    },
+    {
+        "CVE ID": "CVE-2024-50321",
+        "Summary": "An infinite loop in Ivanti Avalanche before 6.4.6 allows a remote unauthenticated attacker to cause a denial of service."
+    },
+    {
+        "CVE ID": "CVE-2024-50320",
+        "Summary": "An infinite loop in Ivanti Avalanche before 6.4.6 allows a remote unauthenticated attacker to cause a denial of service."
+    },
+    {
+        "CVE ID": "CVE-2024-50319",
+        "Summary": "An infinite loop in Ivanti Avalanche before 6.4.6 allows a remote unauthenticated attacker to cause a denial of service."
+    },
+    {
+        "CVE ID": "CVE-2024-50318",
+        "Summary": "A null pointer dereference in Ivanti Avalanche before 6.4.6 allows a remote unauthenticated attacker to cause a denial of service."
+    },
+    {
+        "CVE ID": "CVE-2024-50317",
+        "Summary": "A null pointer dereference in Ivanti Avalanche before 6.4.6 allows a remote unauthenticated attacker to cause a denial of service."
+    },
+    {
+        "CVE ID": "CVE-2024-50311",
+        "Summary": "A denial of service (DoS) vulnerability was found in OpenShift. This flaw allows attackers to exploit the GraphQL batching functionality. The vulnerability arises when multiple queries can be sent within a single request, enabling an attacker to submit a request containing thousands of aliases in one query. This issue causes excessive resource consumption, leading to application unavailability for legitimate users."
+    },
+    {
+        "CVE ID": "CVE-2024-49974",
+        "Summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFSD: Limit the number of concurrent async COPY operations\n\nNothing appears to limit the number of concurrent async COPY\noperations that clients can start. In addition, AFAICT each async\nCOPY can copy an unlimited number of 4MB chunks, so can run for a\nlong time. Thus IMO async COPY can become a DoS vector.\n\nAdd a restriction mechanism that bounds the number of concurrent\nbackground COPY operations. Start simple and try to be fair -- this\npatch implements a per-namespace limit.\n\nAn async COPY request that occurs while this limit is exceeded gets\nNFS4ERR_DELAY. The requesting client can choose to send the request\nagain after a delay or fall back to a traditional read/write style\ncopy.\n\nIf there is need to make the mechanism more sophisticated, we can\nvisit that in future patches."
+    },
+    {
+        "CVE ID": "CVE-2024-49778",
+        "Summary": "A heap-based buffer overflow in tsMuxer version nightly-2024-05-12-02-01-18 allows attackers to cause Denial of Service (DoS) and Code Execution via a crafted MOV video file."
+    },
+    {
+        "CVE ID": "CVE-2024-49777",
+        "Summary": "A heap-based buffer overflow in tsMuxer version nightly-2024-03-14-01-51-12 allows attackers to cause Denial of Service (DoS), Information Disclosure and Code Execution via a crafted MKV video file."
+    }
+]

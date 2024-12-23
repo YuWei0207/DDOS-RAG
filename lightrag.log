@@ -1,0 +1,54 @@
+2024-12-18 23:39:01,792 - lightrag - INFO - Logger initialized for working directory: wireshark_llm/dickens
+2024-12-18 23:39:01,793 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-12-18 23:39:01,794 - lightrag - INFO - Load KV full_docs with 0 data
+2024-12-18 23:39:01,795 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-12-18 23:39:01,805 - lightrag - INFO - Loaded graph from wireshark_llm/dickens/graph_chunk_entity_relation.graphml with 532 nodes, 423 edges
+2024-12-18 23:39:01,811 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-12-18 23:39:01,962 - lightrag - INFO - [New Chunks] inserting 33 chunks
+2024-12-18 23:39:01,963 - lightrag - INFO - Inserting 33 vectors to chunks
+2024-12-18 23:39:01,999 - lightrag - INFO - Writing graph with 532 nodes, 423 edges
+2024-12-18 23:39:36,469 - lightrag - INFO - Logger initialized for working directory: wireshark_llm/dickens
+2024-12-18 23:39:36,469 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-12-18 23:39:36,470 - lightrag - INFO - Load KV full_docs with 0 data
+2024-12-18 23:39:36,471 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-12-18 23:39:36,479 - lightrag - INFO - Loaded graph from wireshark_llm/dickens/graph_chunk_entity_relation.graphml with 532 nodes, 423 edges
+2024-12-18 23:39:36,482 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-12-18 23:39:36,625 - lightrag - INFO - [New Chunks] inserting 33 chunks
+2024-12-18 23:39:36,626 - lightrag - INFO - Inserting 33 vectors to chunks
+2024-12-18 23:39:40,813 - lightrag - INFO - [Entity Extraction]...
+2024-12-19 00:20:09,897 - lightrag - INFO - Inserting entities into storage...
+2024-12-19 00:20:09,915 - lightrag - INFO - Inserting relationships into storage...
+2024-12-19 00:20:09,927 - lightrag - INFO - Inserting 497 vectors to entities
+2024-12-19 00:20:22,250 - lightrag - INFO - Writing graph with 718 nodes, 753 edges
+2024-12-19 01:03:59,076 - lightrag - INFO - Logger initialized for working directory: wireshark_llm/dickens
+2024-12-19 01:03:59,078 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-12-19 01:03:59,078 - lightrag - INFO - Load KV full_docs with 0 data
+2024-12-19 01:03:59,079 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-12-19 01:03:59,091 - lightrag - INFO - Loaded graph from wireshark_llm/dickens/graph_chunk_entity_relation.graphml with 718 nodes, 753 edges
+2024-12-19 01:03:59,093 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-12-19 01:03:59,237 - lightrag - INFO - [New Chunks] inserting 33 chunks
+2024-12-19 01:03:59,237 - lightrag - INFO - Inserting 33 vectors to chunks
+2024-12-19 01:04:00,648 - lightrag - INFO - [Entity Extraction]...
+2024-12-19 01:11:33,575 - lightrag - INFO - Logger initialized for working directory: wireshark_llm/dickens
+2024-12-19 01:11:33,576 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-12-19 01:11:33,577 - lightrag - INFO - Load KV full_docs with 0 data
+2024-12-19 01:11:33,578 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-12-19 01:11:33,590 - lightrag - INFO - Loaded graph from wireshark_llm/dickens/graph_chunk_entity_relation.graphml with 718 nodes, 753 edges
+2024-12-19 01:11:33,593 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-12-19 01:11:33,739 - lightrag - INFO - [New Chunks] inserting 33 chunks
+2024-12-19 01:11:33,740 - lightrag - INFO - Inserting 33 vectors to chunks
+2024-12-19 01:11:37,196 - lightrag - INFO - [Entity Extraction]...
+2024-12-19 01:14:35,355 - lightrag - INFO - Logger initialized for working directory: wireshark_llm/dickens
+2024-12-19 01:14:35,356 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-12-19 01:14:35,356 - lightrag - INFO - Load KV full_docs with 0 data
+2024-12-19 01:14:35,356 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-12-19 01:14:35,358 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-12-19 01:14:35,496 - lightrag - INFO - [New Chunks] inserting 8 chunks
+2024-12-19 01:14:35,496 - lightrag - INFO - Inserting 8 vectors to chunks
+2024-12-19 01:14:35,657 - lightrag - INFO - [Entity Extraction]...
+2024-12-19 01:24:42,512 - lightrag - INFO - Inserting entities into storage...
+2024-12-19 01:24:42,518 - lightrag - INFO - Inserting relationships into storage...
+2024-12-19 01:24:42,521 - lightrag - INFO - Inserting 118 vectors to entities
+2024-12-19 01:24:44,149 - lightrag - INFO - Inserting 125 vectors to relationships
+2024-12-19 01:24:45,218 - lightrag - INFO - Writing graph with 122 nodes, 125 edges
+2024-12-19 01:24:45,253 - lightrag - INFO - Truncate 8 to 3 chunks

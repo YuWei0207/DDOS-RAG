@@ -1,0 +1,1372 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d4" for="edge" attr.name="description" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;CVE-2024-49778&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A specific vulnerability identified as CVE-2024-49778, involving a heap-based buffer overflow in tsMuxer version nightly-2024-05-12-02-01-18 leading to Denial of Service and Code Execution."</data>
+      <data key="d2">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </node>
+    <node id="&quot;SCALANCE M804PB&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SCALANCE M804PB device with versions below V8.2 is identified as having vulnerabilities leading to Denial of Service (DoS)."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;@INTLIFY/SHARED&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"@intlify/shared is a shared library for the intlify project, used to handle internationalization functionalities in web applications."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;SCALANCE S615 LAN-ROUTER&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"SCALANCE S615 LAN-Router is a category of devices affected by an access control issue."</data>
+      <data key="d2">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </node>
+    <node id="&quot;STACK OVERFLOW&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"An event where a program writes more data to a buffer than it can hold, potentially leading to security issues such as Denial of Service (DoS)."</data>
+      <data key="d2">chunk-1d6dfb974f8b11a7b91e071b7ee33efd</data>
+    </node>
+    <node id="&quot;CVE-2024-49777&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A specific vulnerability identified as CVE-2024-49777, involving a heap-based buffer overflow in tsMuxer version nightly-2024-03-14-01-51-12 leading to Denial of Service, Information Disclosure and Code Execution."</data>
+      <data key="d2">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </node>
+    <node id="&quot;SCALANCE M812-1 ADSL-ROUTER&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SCALANCE M812-1 ADSL-Routers, including models with different identifiers and versions below V8.2, are identified as having vulnerabilities leading to Denial of Service (DoS)."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;SYNAPSE&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Synapse is an open-source software that serves as a Matrix homeserver."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;APACHE CLOUDSTACK 4.0.0 THROUGH 4.18.2.4&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"This event refers to the version range of Apache CloudStack that has vulnerabilities due to missing validation checks for KVM-compatible templates."</data>
+      <data key="d2">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </node>
+    <node id="&quot;NETGEAR&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Netgear is a company that manufactures networking devices and has multiple models affected by vulnerabilities, such as the R8500."&lt;SEP&gt;"Netgear is an organization that manufactures routers and networking devices affected by multiple vulnerabilities."&lt;SEP&gt;"Netgear is an organization that produces networking devices such as routers and wireless access points which have been identified to contain various vulnerabilities."&lt;SEP&gt;"Netgear is an organization that produces networking devices such as routers, including models XR300, R7000P, R6400, and R8500 which are affected by multiple vulnerabilities."</data>
+      <data key="d2">chunk-1d6dfb974f8b11a7b91e071b7ee33efd&lt;SEP&gt;chunk-f56944e367410f877ac6054c1062428c&lt;SEP&gt;chunk-623fb2e8e0eefbec7f352595413b2334&lt;SEP&gt;chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;SCALANCE M816-1 ADSL-ROUTER&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SCALANCE M816-1 ADSL-Routers, including models with different identifiers and versions below V8.2, are identified as having vulnerabilities leading to Denial of Service (DoS)."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;OPENCAST&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Opencast is free and open-source software for automated video capture and distribution, with features for managing video content in educational contexts."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;APACHE CLOUDSTACK 4.19.0.0 THROUGH 4.19.1.2&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"This event refers to another version range of Apache CloudStack that has similar vulnerabilities as mentioned above."</data>
+      <data key="d2">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </node>
+    <node id="&quot;CVE-2024-51013&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51013 is an event indicating the discovery of a stack overflow vulnerability in Netgear R7000P v1.3.3.154 related to crafted POST requests."&lt;SEP&gt;"CVE-2024-51013 is an event marking a specific vulnerability in Netgear R7000P v1.3.3.154 related to a stack overflow."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c&lt;SEP&gt;chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;SCALANCE M826-2 SHDSL-ROUTER&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SCALANCE M826-2 SHDSL-Routers with versions below V8.2 are identified as having vulnerabilities leading to Denial of Service (DoS)."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;PASSWORD PUSHER&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Password Pusher is an open-source application designed to securely communicate sensitive information over the web."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;INOVANCE&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Inovance produces HCPLC-AM series CPU controllers which have been identified to contain buffer overflow vulnerabilities in their software."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-51012&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51012 is an event marking a specific vulnerability in Netgear R8500 v1.0.2.160 related to a stack overflow."</data>
+      <data key="d2">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;SCALANCE M874-2, SCALANCE M874-3, SCALANCE M876-3, SCALANCE M876-4&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Various SCALANCE devices including models M874-2, M874-3, M876-3, and M876-4 with versions below V8.2 are identified as having vulnerabilities leading to Denial of Service (DoS)."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;TSMUXER&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"tsMuxer is a multimedia framework that handles video file format conversion and manipulation."&lt;SEP&gt;"tsMuxer is a software tool used for creating MPEG-TS files from various media sources, containing vulnerabilities leading to Denial of Service and Code Execution."</data>
+      <data key="d2">chunk-22dd96ad0e572f6ccee22c518bbc42d4&lt;SEP&gt;chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;XINJE&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"XINJE is a company that manufactures networking equipment, such as the XD5E-24R and XL5E-16T devices with vulnerabilities."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-51011&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51011 is an event marking multiple vulnerabilities in Netgear XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 related to stack overflows."</data>
+      <data key="d2">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;HPE NONSTOP DISK UTIL (T9208)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"HPE NonStop DISK UTIL (T9208) is a technology product by Hewlett Packard Enterprise that has been found to contain security vulnerabilities leading to denial of service."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;MOCHIMQTT V2.6.3&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"mochiMQTT v2.6.3 is a version of a MQTT protocol implementation that contains an issue leading to a Denial of Service (DoS) via crafted requests."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;GISKARD&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Giskard is an evaluation and testing framework for AI systems, offering tools to assess the behavior of AI models."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;CVE-2024-51007&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51007 is an event marking a specific vulnerability in Netgear XR300 v1.0.3.78 related to a stack overflow."</data>
+      <data key="d2">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;RUIJIE REYEE OS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Ruijie Reyee OS is an operating system produced by Ruijie Networks that contains a vulnerability enabling session invalidation and potential denial-of-service attacks."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;NETGEAR R7000P&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The Netgear R7000P is a wireless router model produced by Netgear that supports various networking functionalities."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;KMQTT V0.2.7&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"kmqtt v0.2.7 is a version of a MQTT library that contains an issue allowing attackers to cause a Denial of Service (DoS)."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-51006&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51006 is an event marking a specific vulnerability in Netgear R8500 v1.0.2.160 related to a stack overflow."</data>
+      <data key="d2">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;ESPRESSIF ESP IDF V5.3.0&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Espressif Esp idf v5.3.0 is software developed by Espressif Systems, which allows attackers to cause a Denial of Service (DoS) through crafted data channel packets."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;CVE-2024-52810&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-52810 is a reported vulnerability in @intlify/shared versions before 9.14.2 and 10.0.5, allowing prototype pollution leading to denial of service."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;R8500 V1.0.2.160&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Netgear R8500 version 1.0.2.160 is a networking device with identified vulnerabilities."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-53984&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-53984 is a vulnerability report for Nanopb before version 0.4.9.1, leading to potential memory leaks and denial-of-service conditions."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;CVE-2024-51004&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51004 is an event marking multiple vulnerabilities in Netgear R8500 v1.0.2.160 and R7000P v1.3.3.154 related to stack overflows."</data>
+      <data key="d2">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;TENDA O3&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Tenda O3 is a router model that has been found to contain buffer overflow vulnerabilities allowing remote attackers to cause a denial-of-service attack via network packets."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;CVE-2024-52805&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-52805 is a reported vulnerability in Synapse versions before 1.120.1, allowing attackers to cause denial of service via multipart/form-data requests."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;XR300 V1.0.3.78&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Netgear XR300 version 1.0.3.78 is a networking device with identified vulnerabilities."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;IMAGER&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Imager is an organization or project providing a Perl package that had a heap-based buffer overflow vulnerability before version 1.025, potentially causing denial of service."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;CVE-2024-51003&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51003 is an event marking multiple vulnerabilities in Netgear R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 related to stack overflows."</data>
+      <data key="d2">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;OPEN 5GS V.2.7.1&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Open 5GS version 2.7.1 is software that contains an issue which could allow remote attackers to cause a denial of service through the Network Function Virtualizations (NFVs)."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;CVE-2024-52797&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-52797 is a reported vulnerability in Opencast versions before 13.10 and 14.3, leading to denial of service due to invalid Elasticsearch queries causing an infinite loop."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;R7000P V1.3.3.154&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Netgear R7000P version 1.3.3.154 is a networking device with identified vulnerabilities."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;PYJWT&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"PyJWT is an organization or project offering a JSON Web Token implementation in Python that had a vulnerability in versions between 2.10.0 and 2.10.1 due to incorrect string comparison logic, leading to potential denial-of-service conditions."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;CVE-2024-51002&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51002 is an event marking a specific vulnerability in Netgear R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 related to a stack overflow."</data>
+      <data key="d2">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;KIA SELTOS VEHICLE INSTRUMENT CLUSTER WITH SOFTWARE AND HARDWARE V1.0&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The KIA Seltos vehicle instrument cluster software and hardware version 1.0 contains an issue that allows attackers to cause a Denial of Service via ECU reset UDS service."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;CVE-2024-52796&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-52796 is a reported vulnerability in Password Pusher versions before 1.49.0, allowing bypassing of the rate limiter and potentially causing denial of service."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;R6400 V2 1.0.4.128&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Netgear R6400 version 2 1.0.4.128 is a networking device with identified vulnerabilities."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-54159&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-54159 is a vulnerability report for stalld through 1.19.7, which allows local users to cause a denial of service via a /tmp/rtthrottle symlink attack."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;CVE-2024-51001&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51001 is an event marking a specific vulnerability in Netgear R8500 v1.0.2.160 related to a stack overflow."</data>
+      <data key="d2">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;CVE-2024-52013&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-52013 is an event indicating a vulnerability discovery in Netgear devices related to stack overflow."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;CVE-2024-52613&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-52613 is a reported vulnerability in tsMuxer version nightly-2024-05-12-02-01-18, allowing denial of service via heap-based buffer under-read."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;HCPLC_AM401-CPU1608TPTN 21.38.0.0&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Inovance HCPLC-AM401-CPU1608TPTN version 21.38.0.0 is a device with identified buffer overflow vulnerabilities."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-54130&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-54130 is a vulnerability report for NASA’s Interplanetary Overlay Network (ION) version 4.1.3, leading to a segmentation fault and denial-of-service condition."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;CVE-2024-51000&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51000 is an event marking multiple vulnerabilities in Netgear R8500 v1.0.2.160 related to stack overflows."</data>
+      <data key="d2">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;CVE-2024-51766&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51766 is an event indicating a security vulnerability discovered in HPE NonStop DISK UTIL (T9208)."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;CVE-2024-52524&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-52524 is a reported vulnerability in Giskard versions before 2.15.5, allowing remote code execution leading to denial of service."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;HCPLC_AM402-CPU1608TPTN 41.38.0.0&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Inovance HCPLC-AM402-CPU1608TPTN version 41.38.0.0 is a device with identified buffer overflow vulnerabilities."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;DJANGO&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Django is a web framework for Python that had vulnerabilities in several versions leading to potential denial-of-service attacks through certain inputs containing large sequences of nested incomplete HTML entities."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;CVE-2024-50998&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-50998 is an event marking multiple vulnerabilities in Netgear R8500 v1.0.2.160 related to stack overflows."</data>
+      <data key="d2">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;CVE-2024-51727&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51727 is an event indicating the discovery of a vulnerability in Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;CVE-2024-51014&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51014 is an event indicating the discovery of a stack overflow vulnerability in Netgear XR300 v1.0.3.78 related to crafted POST requests."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;CVE-2024-52030&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-52030 is a reported vulnerability in Netgear R7000P v1.3.3.154, allowing denial of service via stack overflow through the pptp_user_netmask parameter."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;HCPLC_AM403-CPU1608TN 81.38.0.0&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Inovance HCPLC-AM403-CPU1608TN version 81.38.0.0 is a device with identified buffer overflow vulnerabilities."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;PCL&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"PCL (Point Cloud Library) is an organization or project providing software for 3D point cloud processing that had a vulnerability in version 1.14.1 leading to crashes due to malformed PLY files, potentially causing denial-of-service conditions."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;CVE-2024-50997&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-50997 is an event marking a specific vulnerability in Netgear R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128 related to a stack overflow."</data>
+      <data key="d2">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;CVE-2024-51428&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51428 is an event indicating the discovery of a vulnerability in Espressif Esp idf v5.3.0 related to crafted data channel packets."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;PYTHON-MULTIPART&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Python-multipart is an organization or project providing a streaming multipart parser for Python that had a vulnerability in versions before 0.0.18, causing excessive logging and potential denial-of-service conditions due to line break handling."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;CVE-2024-52029&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-52029 is a reported vulnerability in Netgear R7000P v1.3.3.154, allowing denial of service via stack overflow."</data>
+      <data key="d2">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;XD5E-24R AND XL5E-16T V3.5.3B&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"XINJE XD5E-24R and XL5E-16T version 3.5.3b are devices with identified vulnerabilities."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;BITCOIN CORE&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Bitcoin Core is an open-source software project that maintains and develops the Bitcoin blockchain."&lt;SEP&gt;"Bitcoin Core is the reference implementation of Bitcoin software that has had multiple vulnerabilities in different versions leading to potential denial-of-service attacks through various mechanisms such as malformed messages and header floods."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491&lt;SEP&gt;chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Denial of Service (DoS) is the category of attacks that disrupt normal functioning through crafted POST requests."&lt;SEP&gt;"Denial of Service (DoS) is the event where services are rendered unavailable due to attacks exploiting vulnerabilities."&lt;SEP&gt;"Denial of Service is an event where a system becomes unavailable to its intended users due to malicious traffic or requests."</data>
+      <data key="d2">chunk-1d6dfb974f8b11a7b91e071b7ee33efd&lt;SEP&gt;chunk-623fb2e8e0eefbec7f352595413b2334&lt;SEP&gt;chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-51409&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51409 is an event indicating the discovery of a buffer overflow vulnerability in Tenda O3 v.1.0.0.5 leading to denial of service."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;NANOPB&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Nanopb is an organization or project providing a small code-size Protocol Buffers implementation that had a vulnerability in versions before 0.4.9.1, leading to potential memory leak and denial-of-service conditions due to issues with pb_decode_ex() function."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;IVANTI AVALANCHE&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Ivanti Avalanche is a product affected by multiple vulnerabilities, including infinite loops and null pointer dereference issues, which can lead to denial of service conditions."&lt;SEP&gt;"Ivanti Avalanche is a software product that has been identified with several vulnerabilities leading to denial of service attacks."</data>
+      <data key="d2">chunk-22dd96ad0e572f6ccee22c518bbc42d4&lt;SEP&gt;chunk-c9dc2219d93419f797515e07e773233f</data>
+    </node>
+    <node id="&quot;CVE-2024-50996&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-50996 is a specific vulnerability identifier for Netgear's products affected by stack overflow via the bpa_server parameter."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-53981&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-53981 is a vulnerability report for python-multipart before version 0.0.18, leading to excessive logging and potential denial-of-service conditions."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;NETGEAR R7000P V1.3.3.154&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A specific version of Netgear's R7000P router model that contains multiple vulnerabilities."&lt;SEP&gt;"Netgear R7000P v1.3.3.154 is a specific model of Netgear router affected by vulnerabilities."&lt;SEP&gt;"The Netgear R7000P v1.3.3.154 router has multiple identified stack overflow vulnerabilities that allow attackers to cause a Denial of Service via crafted POST requests."</data>
+      <data key="d2">chunk-1d6dfb974f8b11a7b91e071b7ee33efd&lt;SEP&gt;chunk-f56944e367410f877ac6054c1062428c&lt;SEP&gt;chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;CVE-2024-51179&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51179 is an event indicating the discovery of a vulnerability in Open 5GS v.2.7.1 related to Network Function Virtualizations (NFVs)."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;STALLD&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Stalld is an organization or project that had a vulnerability in versions through 1.19.7, allowing local users to cause a denial of service via a /tmp/rtthrottle symlink attack."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;OPENSHIFT&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"OpenShift is an open-source container application platform developed by Red Hat, which contains a vulnerability related to GraphQL batching functionality."</data>
+      <data key="d2">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </node>
+    <node id="&quot;CVE-2024-50995&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-50995 is a specific vulnerability identifier for Netgear R8500 v1.0.2.160 affected by stack overflow via the share_name parameter."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-53907&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-53907 is a vulnerability report for Django versions before 5.1.4, 5.0.10, and 4.2.17, leading to potential denial-of-service attacks through large sequences of nested incomplete HTML entities."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;NETGEAR R8500 V1.0.2.160&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A specific version of Netgear's R8500 router model that contains multiple vulnerabilities."&lt;SEP&gt;"Netgear R8500 v1.0.2.160 is a specific model of Netgear router affected by vulnerabilities."</data>
+      <data key="d2">chunk-1d6dfb974f8b11a7b91e071b7ee33efd&lt;SEP&gt;chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;CVE-2024-51072&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51072 is an event indicating the discovery of a vulnerability in KIA Seltos vehicle instrument cluster that allows attackers to cause Denial of Service via ECU reset UDS service."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;LINUX KERNEL&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The Linux kernel is the core component of the Linux operating system and has been identified with vulnerabilities that can be exploited for denial of service attacks via async COPY operations."</data>
+      <data key="d2">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </node>
+    <node id="&quot;CVE-2024-50994&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-50994 is a specific vulnerability identifier for Netgear R8500 v1.0.2.160 affected by multiple stack overflow vulnerabilities."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-52915&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-52915 is a reported vulnerability in Bitcoin Core versions before 0.20.0, allowing denial of service via crafted INV messages."&lt;SEP&gt;"CVE-2024-52915 is a vulnerability report for Bitcoin Core before version 0.20.0, leading to denial-of-service attacks through memory consumption."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491&lt;SEP&gt;chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;NETGEAR XR300 V1.0.3.78&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A specific version of Netgear's XR300 router model that contains multiple vulnerabilities."&lt;SEP&gt;"Netgear XR300 v1.0.3.78 is a specific model of Netgear router affected by vulnerabilities."&lt;SEP&gt;"Netgear XR300 v1.0.3.78 is a specific model of router that has been found to contain multiple vulnerabilities leading to denial-of-service attacks via crafted POST requests."&lt;SEP&gt;"The Netgear XR300 v1.0.3.78 router has multiple identified stack overflow vulnerabilities that allow attackers to cause a Denial of Service via crafted POST requests."</data>
+      <data key="d2">chunk-1d6dfb974f8b11a7b91e071b7ee33efd&lt;SEP&gt;chunk-f56944e367410f877ac6054c1062428c&lt;SEP&gt;chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;CVE-2024-53901&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-53901 is a vulnerability report for the Imager package before version 1.025, leading to potential heap-based buffer overflow and denial-of-service conditions."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;CVE-2024-51022&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51022 is an event indicating the discovery of a stack overflow vulnerability in Netgear XR300 v1.0.3.78 related to crafted POST requests."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;CVE-2024-50319&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A specific vulnerability identified as CVE-2024-50319, involving an infinite loop in Ivanti Avalanche before version 6.4.6."</data>
+      <data key="d2">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </node>
+    <node id="&quot;CVE-2024-50956&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-50956 is a specific vulnerability identifier for Inovance HCPLC-AM series CPU controllers affected by buffer overflows."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-53861&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-53861 is a vulnerability report for pyjwt versions between 2.10.0 and 2.10.1, leading to potential denial-of-service conditions due to incorrect string comparison logic."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;NETGEAR R6400 V2 1.0.4.128&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A specific version of Netgear's R6400 router model that contains multiple vulnerabilities."&lt;SEP&gt;"Netgear R6400 v2 1.0.4.128 is a specific model of Netgear router affected by vulnerabilities."&lt;SEP&gt;"Netgear R6400 v2 1.0.4.128 is a specific model of router that has been found to contain vulnerabilities leading to denial-of-service attacks."</data>
+      <data key="d2">chunk-1d6dfb974f8b11a7b91e071b7ee33efd&lt;SEP&gt;chunk-f56944e367410f877ac6054c1062428c&lt;SEP&gt;chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </node>
+    <node id="&quot;CVE-2024-51020&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51020 is an event indicating the discovery of a stack overflow vulnerability in Netgear R7000P v1.3.3.154 related to crafted POST requests."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;NASA’S INTERPLANETARY OVERLAY NETWORK (ION)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"NASA's ION is an implementation of Delay/Disruption Tolerant Networking that had a vulnerability in version 4.1.3 leading to a segmentation fault and denial-of-service condition when receiving bundles with a specific Destination Endpoint ID."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;CVE-2024-50318&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A specific vulnerability identified as CVE-2024-50318, involving a null pointer dereference in Ivanti Avalanche before version 6.4.6."</data>
+      <data key="d2">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </node>
+    <node id="&quot;CVE-2024-50955&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-50955 is a specific vulnerability identifier for XINJE XD5E-24R and XL5E-16T v3.5.3b affected by issues with TCP protocol messages."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-53432&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-53432 is a vulnerability report for PCL version 1.14.1, leading to crashes and potential denial-of-service conditions when parsing malformed PLY files."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;SCALANCE M876-4&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"SCALANCE M876-4 is a category of devices affected by an access control issue, allowing for potential denial of service conditions."</data>
+      <data key="d2">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </node>
+    <node id="&quot;CVE-2024-51019&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51019 is an event indicating the discovery of a stack overflow vulnerability in Netgear R7000P v1.3.3.154 related to crafted POST requests."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;CVE-2024-50317&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A specific vulnerability identified as CVE-2024-50317, involving a null pointer dereference in Ivanti Avalanche before version 6.4.6."</data>
+      <data key="d2">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </node>
+    <node id="&quot;CVE-2024-50948&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-50948 is a specific vulnerability identifier for mochiMQTT v2.6.3 affected by Denial of Service (DoS) via crafted requests."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-52920&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-52920 is a vulnerability report for Bitcoin Core before version 0.20.0, leading to denial-of-service attacks through malformed GETDATA messages."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;APACHE CLOUDSTACK&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Apache CloudStack is a cloud infrastructure software that has vulnerabilities in certain versions related to template registration and management."</data>
+      <data key="d2">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </node>
+    <node id="&quot;CVE-2024-51018&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51018 is an event indicating the discovery of a stack overflow vulnerability in Netgear R7000P v1.3.3.154 related to crafted POST requests."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;CVE-2024-50311&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A specific vulnerability identified as CVE-2024-50311, involving denial of service due to the GraphQL batching functionality in OpenShift."</data>
+      <data key="d2">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </node>
+    <node id="&quot;CVE-2024-50947&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-50947 is a specific vulnerability identifier for kmqtt v0.2.7 affected by Denial of Service (DoS) via crafted requests."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-52918&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-52918 is a vulnerability report for Bitcoin-Qt in Bitcoin Core before version 0.20.0, leading to denial-of-service attacks through large files via BIP21 r parameter."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </node>
+    <node id="&quot;SCALANCE MUM853-1&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"SCALANCE MUM853-1 is a category of devices affected by an access control issue."</data>
+      <data key="d2">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </node>
+    <node id="&quot;CVE-2024-51017&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51017 is an event indicating the discovery of a stack overflow vulnerability in Netgear R7000P v1.3.3.154 related to crafted POST requests."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;CVE-2024-49974&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A specific vulnerability identified as CVE-2024-49974, involving the Linux kernel's handling of concurrent async COPY operations leading to denial of service."</data>
+      <data key="d2">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </node>
+    <node id="&quot;RUGGEDCOM RM1224 LTE(4G)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"RUGGEDCOM RM1224 LTE(4G) devices, specifically models EU and NAM with versions below V8.2, are affected by a vulnerability allowing DoS or code execution."</data>
+      <data key="d2">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </node>
+    <node id="&quot;CVE-2024-52916&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-52916 is a reported vulnerability in Bitcoin Core versions before 0.15.0, allowing denial of service via flooding with minimum difficulty headers."&lt;SEP&gt;"CVE-2024-52916 is a vulnerability report for Bitcoin Core before version 0.15.0, leading to denial-of-service attacks through floods of minimum difficulty headers."</data>
+      <data key="d2">chunk-3cdb3760961cb21b404731b983bfb491&lt;SEP&gt;chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </node>
+    <node id="&quot;SCALANCE MUM856-1&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"SCALANCE MUM856-1 is a category of devices affected by an access control issue."</data>
+      <data key="d2">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </node>
+    <node id="&quot;CVE-2024-51016&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CVE-2024-51016 is an event indicating the discovery of a stack overflow vulnerability in Netgear XR300 v1.0.3.78 related to crafted POST requests."</data>
+      <data key="d2">chunk-f56944e367410f877ac6054c1062428c</data>
+    </node>
+    <node id="&quot;SCALANCE S615 EEC LAN-ROUTER&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"SCALANCE S615 EEC LAN-Router is a category of devices affected by an access control issue."</data>
+      <data key="d2">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </node>
+    <node id="&quot;ACCESS CONTROL ISSUE&quot;">
+      <data key="d2">chunk-c9dc2219d93419f797515e07e773233f</data>
+      <data key="d1">"The SCALANCE M876-4 devices improperly manage access control for read-only users, allowing attackers to cause a temporary denial of service condition."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;TEMPLATE REGISTRATION VULNERABILITY&quot;">
+      <data key="d2">chunk-c9dc2219d93419f797515e07e773233f</data>
+      <data key="d1">"Versions of Apache CloudStack are affected by vulnerabilities due to missing validation checks when registering templates, which could lead to exploitation and compromise of KVM-based environments."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;INFINITE LOOP VULNERABILITY&quot;">
+      <data key="d2">chunk-c9dc2219d93419f797515e07e773233f</data>
+      <data key="d1">"Versions of Ivanti Avalanche before 6.4.6 contain vulnerabilities leading to infinite loops that can cause denial of service conditions."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;DENIAL OF SERVICE&quot;">
+      <data key="d2">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+      <data key="d1">"Vulnerabilities in Ivanti Avalanche versions before 6.4.6 can be exploited by remote unauthenticated attackers to cause a denial of service."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;CVE-2024-49778&quot;" target="&quot;TSMUXER&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"The vulnerability CVE-2024-49778 is associated with tsMuxer version nightly-2024-05-12-02-01-18 and leads to Denial of Service and Code Execution."</data>
+      <data key="d5">"security issue, denial of service"</data>
+      <data key="d6">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </edge>
+    <edge source="&quot;@INTLIFY/SHARED&quot;" target="&quot;CVE-2024-52810&quot;">
+      <data key="d3">18.0</data>
+      <data key="d4">"The @intlify/shared library is affected by CVE-2024-52810, which allows prototype pollution through the entry function(s) lib.deepCopy, leading to denial of service and potential arbitrary command execution."&lt;SEP&gt;"The @intlify/shared library is affected by CVE-2024-52810, which allows prototype pollution through the lib.deepCopy function, leading to denial of service and potential arbitrary command execution."</data>
+      <data key="d5">"vulnerability, prototype pollution"</data>
+      <data key="d6">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </edge>
+    <edge source="&quot;SCALANCE S615 LAN-ROUTER&quot;" target="&quot;ACCESS CONTROL ISSUE&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"The SCALANCE S615 LAN-Router devices improperly manage access control for read-only users, allowing attackers to cause a temporary denial of service condition."</data>
+      <data key="d5">"security vulnerability"</data>
+      <data key="d6">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </edge>
+    <edge source="&quot;STACK OVERFLOW&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Stack overflow vulnerabilities can lead to Denial of Service events when exploited by attackers using crafted POST requests."</data>
+      <data key="d5">"exploitation, vulnerability"</data>
+      <data key="d6">chunk-1d6dfb974f8b11a7b91e071b7ee33efd</data>
+    </edge>
+    <edge source="&quot;CVE-2024-49777&quot;" target="&quot;TSMUXER&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"The vulnerability CVE-2024-49777 is associated with tsMuxer version nightly-2024-03-14-01-51-12 and leads to Denial of Service, Information Disclosure, and Code Execution."</data>
+      <data key="d5">"security issue, denial of service"</data>
+      <data key="d6">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </edge>
+    <edge source="&quot;SYNAPSE&quot;" target="&quot;CVE-2024-52805&quot;">
+      <data key="d3">18.0</data>
+      <data key="d4">"Synapse before version 1.120.1 is affected by CVE-2024-52805 which allows attackers to cause transient memory consumption increases via multipart/form-data requests, amplifying denial of service attacks."</data>
+      <data key="d5">"vulnerability, denial of service"</data>
+      <data key="d6">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </edge>
+    <edge source="&quot;APACHE CLOUDSTACK 4.0.0 THROUGH 4.18.2.4&quot;" target="&quot;TEMPLATE REGISTRATION VULNERABILITY&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Versions of Apache CloudStack from 4.0.0 to 4.18.2.4 are affected by vulnerabilities due to missing validation checks when registering templates, which could lead to exploitation and compromise of KVM-based environments."</data>
+      <data key="d5">"vulnerability, security risk"</data>
+      <data key="d6">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-51013&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The event CVE-2024-51013 indicates a vulnerability in Netgear's R7000P v1.3.3.154 router model."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-51012&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The event CVE-2024-51012 indicates a vulnerability in Netgear's R8500 v1.0.2.160 router model."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-51011&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51011 indicates multiple vulnerabilities in several Netgear router models including XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-51007&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The event CVE-2024-51007 indicates a vulnerability in Netgear's XR300 v1.0.3.78 router model."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-51006&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The event CVE-2024-51006 indicates a vulnerability in Netgear's R8500 v1.0.2.160 router model."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-51004&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51004 indicates multiple vulnerabilities in Netgear's R8500 v1.0.2.160 and R7000P v1.3.3.154 router models."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-52013&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The CVE ID refers to vulnerabilities found in specific Netgear router models, including R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128, which allow attackers to cause a Denial of Service via crafted POST requests."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-51003&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51003 indicates multiple vulnerabilities in several Netgear router models including R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-51727&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The CVE ID refers to vulnerabilities found in Netgear R7000P v1.3.3.154 that allow attackers to cause Denial of Service via crafted POST requests on various CGI scripts."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-51002&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51002 indicates a vulnerability in several Netgear router models including R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-51022&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The CVE ID refers to a vulnerability in Netgear XR300 v1.0.3.78 that allows attackers to cause Denial of Service via a crafted POST request targeting the ssid parameter in bridge_wireless_main.cgi."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-51001&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The event CVE-2024-51001 indicates a vulnerability in Netgear's R8500 v1.0.2.160 router model."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-51000&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51000 indicates multiple vulnerabilities in Netgear's R8500 v1.0.2.160 router model."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-50998&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-50998 indicates multiple vulnerabilities in Netgear's R8500 v1.0.2.160 router model."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;CVE-2024-50997&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-50997 indicates a vulnerability in several Netgear router models including R8500 v1.0.2.160, XR300 v1.0.3.78, R7000P v1.3.3.154, and R6400 v2 1.0.4.128."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;NETGEAR&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">18.0</data>
+      <data key="d4">"Multiple vulnerabilities in Netgear devices allow attackers to cause Denial of Service events via crafted POST requests targeting various parameters."&lt;SEP&gt;"The vulnerabilities found in Netgear's networking devices can lead to a Denial of Service (DoS) condition when exploited."</data>
+      <data key="d5">"vulnerability exploitation, DoS"&lt;SEP&gt;"vulnerability exploitation, cybersecurity threat"</data>
+      <data key="d6">chunk-1d6dfb974f8b11a7b91e071b7ee33efd&lt;SEP&gt;chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </edge>
+    <edge source="&quot;OPENCAST&quot;" target="&quot;CVE-2024-52797&quot;">
+      <data key="d3">16.0</data>
+      <data key="d4">"Opencast versions before 13.10 and 14.3 are affected by CVE-2024-52797, which causes an infinite loop due to invalid Elasticsearch queries leading to massive log size increases and potential denial of service via disk exhaustion."</data>
+      <data key="d5">"vulnerability, denial of service"</data>
+      <data key="d6">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </edge>
+    <edge source="&quot;APACHE CLOUDSTACK 4.19.0.0 THROUGH 4.19.1.2&quot;" target="&quot;TEMPLATE REGISTRATION VULNERABILITY&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Versions of Apache CloudStack from 4.19.0.0 to 4.19.1.2 are affected by vulnerabilities due to missing validation checks when registering templates, which could lead to exploitation and compromise of KVM-based environments."</data>
+      <data key="d5">"vulnerability, security risk"</data>
+      <data key="d6">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51013&quot;" target="&quot;NETGEAR R7000P V1.3.3.154&quot;">
+      <data key="d3">18.0</data>
+      <data key="d4">"The CVE ID refers to a vulnerability in Netgear R7000P v1.3.3.154 that allows attackers to cause Denial of Service via crafted POST requests targeting the RADIUSAddr%d_wla parameter at wireless.cgi."&lt;SEP&gt;"The event CVE-2024-51013 indicates a vulnerability in the specific model Netgear R7000P v1.3.3.154."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"&lt;SEP&gt;"vulnerability, product"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c&lt;SEP&gt;chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51013&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51013 involves a vulnerability that can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;PASSWORD PUSHER&quot;" target="&quot;CVE-2024-52796&quot;">
+      <data key="d3">16.0</data>
+      <data key="d4">"Password Pusher before version 1.49.0 is affected by CVE-2024-52796, which allows bypassing the rate limiter and potentially causing a denial of service via forged proxy headers."</data>
+      <data key="d5">"vulnerability, denial of service"</data>
+      <data key="d6">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </edge>
+    <edge source="&quot;INOVANCE&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.5</data>
+      <data key="d4">"The buffer overflow vulnerability in Inovance HCPLC-AM series CPU controllers can lead to a Denial of Service (DoS) condition or arbitrary code execution."</data>
+      <data key="d5">"vulnerability exploitation, DoS and code execution"</data>
+      <data key="d6">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51012&quot;" target="&quot;NETGEAR R8500 V1.0.2.160&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51012 indicates a vulnerability in the specific model Netgear R8500 v1.0.2.160."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51012&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51012 involves a vulnerability that can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;TSMUXER&quot;" target="&quot;CVE-2024-52613&quot;">
+      <data key="d3">14.0</data>
+      <data key="d4">"tsMuxer version nightly-2024-05-12-02-01-18 is affected by CVE-2024-52613, which allows attackers to cause a denial of service via heap-based buffer under-read in MOV video files."</data>
+      <data key="d5">"vulnerability, denial of service"</data>
+      <data key="d6">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </edge>
+    <edge source="&quot;TSMUXER&quot;" target="&quot;DENIAL OF SERVICE&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"Vulnerabilities in tsMuxer allow attackers to cause Denial of Service and Code Execution via crafted video files, including MOV and MKV formats."</data>
+      <data key="d5">"security vulnerability, DoS, code execution"</data>
+      <data key="d6">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </edge>
+    <edge source="&quot;XINJE&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.5</data>
+      <data key="d4">"The issue in XINJE's devices allows attackers to cause a Denial of Service (DoS) via crafted TCP messages."</data>
+      <data key="d5">"vulnerability exploitation, DoS"</data>
+      <data key="d6">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51011&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51011 involves vulnerabilities that can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51011&quot;" target="&quot;NETGEAR XR300 V1.0.3.78&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51011 indicates vulnerabilities in the specific model Netgear XR300 v1.0.3.78."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51011&quot;" target="&quot;NETGEAR R6400 V2 1.0.4.128&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51011 indicates vulnerabilities in the specific model Netgear R6400 v2 1.0.4.128."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;HPE NONSTOP DISK UTIL (T9208)&quot;" target="&quot;CVE-2024-51766&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The CVE ID refers to a potential security vulnerability in the HPE NonStop DISK UTIL product that could be exploited for denial-of-service attacks on NonStop servers."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;MOCHIMQTT V2.6.3&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The issue in mochiMQTT v2.6.3 allows attackers to cause a Denial of Service (DoS)."</data>
+      <data key="d5">"vulnerability exploitation, DoS"</data>
+      <data key="d6">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </edge>
+    <edge source="&quot;GISKARD&quot;" target="&quot;CVE-2024-52524&quot;">
+      <data key="d3">18.0</data>
+      <data key="d4">"Giskard versions before 2.15.5 are affected by CVE-2024-52524 which allows remote code execution due to exponential regex evaluation times, potentially causing denial of service."</data>
+      <data key="d5">"vulnerability, denial of service"</data>
+      <data key="d6">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51007&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51007 involves a vulnerability that can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51007&quot;" target="&quot;NETGEAR XR300 V1.0.3.78&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51007 indicates a vulnerability in the specific model Netgear XR300 v1.0.3.78."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;RUIJIE REYEE OS&quot;" target="&quot;CVE-2024-51727&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The CVE ID refers to a vulnerability in Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x that could enable attackers to invalidate legitimate user sessions and cause denial-of-service attacks."</data>
+      <data key="d5">"vulnerability discovery, session invalidation, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;NETGEAR R7000P&quot;" target="&quot;CVE-2024-52030&quot;">
+      <data key="d3">16.0</data>
+      <data key="d4">"The Netgear R7000P model v1.3.3.154 is affected by CVE-2024-52030 which allows stack overflow via the pptp_user_netmask parameter, leading to denial of service."</data>
+      <data key="d5">"vulnerability, denial of service"</data>
+      <data key="d6">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </edge>
+    <edge source="&quot;NETGEAR R7000P&quot;" target="&quot;CVE-2024-52029&quot;">
+      <data key="d3">16.0</data>
+      <data key="d4">"The Netgear R7000P model v1.3.3.154 is affected by CVE-2024-52029 which allows stack overflow through an unspecified parameter, leading to denial of service."</data>
+      <data key="d5">"vulnerability, denial of service"</data>
+      <data key="d6">chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </edge>
+    <edge source="&quot;KMQTT V0.2.7&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The issue in kmqtt v0.2.7 allows attackers to cause a Denial of Service (DoS)."</data>
+      <data key="d5">"vulnerability exploitation, DoS"</data>
+      <data key="d6">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51006&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51006 involves a vulnerability that can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51006&quot;" target="&quot;NETGEAR R8500 V1.0.2.160&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51006 indicates a vulnerability in the specific model Netgear R8500 v1.0.2.160."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;ESPRESSIF ESP IDF V5.3.0&quot;" target="&quot;CVE-2024-51428&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The CVE ID refers to a vulnerability in Espressif Esp idf version 5.3.0 that allows attackers to cause Denial of Service via crafted data channel packets."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;R8500 V1.0.2.160&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The stack overflow vulnerability in R8500 version 1.0.2.160 can lead to a Denial of Service (DoS) condition when exploited."</data>
+      <data key="d5">"vulnerability exploitation, DoS"</data>
+      <data key="d6">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </edge>
+    <edge source="&quot;CVE-2024-53984&quot;" target="&quot;NANOPB&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The CVE-2024-53984 identifies a vulnerability in Nanopb before version 0.4.9.1 leading to memory leaks and potential Denial of Service conditions."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51004&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51004 involves vulnerabilities that can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51004&quot;" target="&quot;NETGEAR XR300 V1.0.3.78&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51004 indicates vulnerabilities in the specific model Netgear XR300 v1.0.3.78."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51004&quot;" target="&quot;NETGEAR R6400 V2 1.0.4.128&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51004 indicates vulnerabilities in the specific model Netgear R6400 v2 1.0.4.128."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;TENDA O3&quot;" target="&quot;CVE-2024-51409&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The CVE ID refers to a buffer overflow vulnerability in Tenda O3 v.1.0.0.5 that allows attackers to cause denial of service via network packets."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;XR300 V1.0.3.78&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The stack overflow vulnerability in XR300 version 1.0.3.78 can lead to a Denial of Service (DoS) condition when exploited."</data>
+      <data key="d5">"vulnerability exploitation, DoS"</data>
+      <data key="d6">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </edge>
+    <edge source="&quot;IMAGER&quot;" target="&quot;CVE-2024-53901&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The CVE-2024-53901 identifies a vulnerability in Imager before version 1.025 leading to heap-based buffer overflow and potential Denial of Service conditions."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;IMAGER&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The heap-based buffer overflow in Imager before 1.025 can lead to Denial of Service conditions when calling the trim() method on a crafted input image."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51003&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51003 involves vulnerabilities that can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51003&quot;" target="&quot;NETGEAR XR300 V1.0.3.78&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51003 indicates vulnerabilities in the specific model Netgear XR300 v1.0.3.78."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51003&quot;" target="&quot;NETGEAR R6400 V2 1.0.4.128&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51003 indicates vulnerabilities in the specific model Netgear R6400 v2 1.0.4.128."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;OPEN 5GS V.2.7.1&quot;" target="&quot;CVE-2024-51179&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The CVE ID refers to an issue in Open 5GS version 2.7.1 that allows attackers to cause denial of service via the Network Function Virtualizations (NFVs)."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;R7000P V1.3.3.154&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The stack overflow vulnerability in R7000P version 1.3.3.154 can lead to a Denial of Service (DoS) condition when exploited."</data>
+      <data key="d5">"vulnerability exploitation, DoS"</data>
+      <data key="d6">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </edge>
+    <edge source="&quot;PYJWT&quot;" target="&quot;CVE-2024-53861&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The CVE-2024-53861 identifies a vulnerability in pyjwt versions between 2.10.0 and 2.10.1 leading to potential Denial of Service conditions due to incorrect string comparison logic."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;PYJWT&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The incorrect string comparison logic in pyjwt between versions 2.10.0 and 2.10.1 can lead to Denial of Service conditions due to unexpected behavior with the \"iss\" claim checking."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51002&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51002 involves a vulnerability that can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51002&quot;" target="&quot;NETGEAR XR300 V1.0.3.78&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51002 indicates vulnerabilities in the specific model Netgear XR300 v1.0.3.78."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51002&quot;" target="&quot;NETGEAR R6400 V2 1.0.4.128&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51002 indicates vulnerabilities in the specific model Netgear R6400 v2 1.0.4.128."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;KIA SELTOS VEHICLE INSTRUMENT CLUSTER WITH SOFTWARE AND HARDWARE V1.0&quot;" target="&quot;CVE-2024-51072&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The CVE ID refers to an issue in KIA Seltos vehicles that allows attackers to cause Denial of Service via ECU reset UDS service."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;R6400 V2 1.0.4.128&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The stack overflow vulnerability in R6400 version 2 1.0.4.128 can lead to a Denial of Service (DoS) condition when exploited."</data>
+      <data key="d5">"vulnerability exploitation, DoS"</data>
+      <data key="d6">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51001&quot;" target="&quot;NETGEAR XR300 V1.0.3.78&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51001 indicates a vulnerability in the specific model Netgear XR300 v1.0.3.78."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51001&quot;" target="&quot;NETGEAR R6400 V2 1.0.4.128&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51001 indicates a vulnerability in the specific model Netgear R6400 v2 1.0.4.128."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51001&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51001 involves a vulnerability that can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-52013&quot;" target="&quot;NETGEAR R6400 V2 1.0.4.128&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The CVE ID refers to a vulnerability in Netgear R6400 v2 1.0.4.128 that allows attackers to cause Denial of Service via crafted POST requests targeting the pptp_user_ip parameter at wiz_pptp.cgi."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;HCPLC_AM401-CPU1608TPTN 21.38.0.0&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.5</data>
+      <data key="d4">"The buffer overflow vulnerability in HCPLC-AM401-CPU1608TPTN version 21.38.0.0 can lead to a Denial of Service (DoS) condition or arbitrary code execution."</data>
+      <data key="d5">"vulnerability exploitation, DoS and code execution"</data>
+      <data key="d6">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </edge>
+    <edge source="&quot;CVE-2024-54130&quot;" target="&quot;NASA’S INTERPLANETARY OVERLAY NETWORK (ION)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The CVE-2024-54130 identifies a vulnerability in NASA’s ION software version 4.1.3 leading to segmentation fault and Denial of Service condition."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51000&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-51000 involves vulnerabilities that can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;HCPLC_AM402-CPU1608TPTN 41.38.0.0&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.5</data>
+      <data key="d4">"The buffer overflow vulnerability in HCPLC-AM402-CPU1608TPTN version 41.38.0.0 can lead to a Denial of Service (DoS) condition or arbitrary code execution."</data>
+      <data key="d5">"vulnerability exploitation, DoS and code execution"</data>
+      <data key="d6">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </edge>
+    <edge source="&quot;DJANGO&quot;" target="&quot;CVE-2024-53907&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The CVE-2024-53907 identifies vulnerabilities in Django versions before 5.1.4, 5.0.10, and 4.2.17 leading to potential Denial of Service attacks through large sequences of nested incomplete HTML entities."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;DJANGO&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The strip_tags() method and striptags template filter in Django versions before 5.1.4, 5.0.10, and 4.2.17 are subject to potential Denial of Service attacks through large sequences of nested incomplete HTML entities."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;CVE-2024-50998&quot;" target="&quot;NETGEAR XR300 V1.0.3.78&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-50998 indicates vulnerabilities in the specific model Netgear XR300 v1.0.3.78."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-50998&quot;" target="&quot;NETGEAR R6400 V2 1.0.4.128&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-50998 indicates vulnerabilities in the specific model Netgear R6400 v2 1.0.4.128."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-50998&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-50998 involves vulnerabilities that can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-51014&quot;" target="&quot;NETGEAR XR300 V1.0.3.78&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The CVE ID refers to a vulnerability in Netgear XR300 v1.0.3.78 that allows attackers to cause Denial of Service via crafted POST requests targeting the ssid_an parameter in bridge_wireless_main.cgi."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;HCPLC_AM403-CPU1608TN 81.38.0.0&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.5</data>
+      <data key="d4">"The buffer overflow vulnerability in HCPLC-AM403-CPU1608TN version 81.38.0.0 can lead to a Denial of Service (DoS) condition or arbitrary code execution."</data>
+      <data key="d5">"vulnerability exploitation, DoS and code execution"</data>
+      <data key="d6">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </edge>
+    <edge source="&quot;PCL&quot;" target="&quot;CVE-2024-53432&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The CVE-2024-53432 identifies a vulnerability in PCL version 1.14.1 leading to crashes and potential Denial of Service conditions when parsing malformed PLY files."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;PCL&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The uncaught std::out_of_range exception in PCL version 1.14.1 can cause a Denial of Service condition when parsing malformed PLY files."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;CVE-2024-50997&quot;" target="&quot;NETGEAR XR300 V1.0.3.78&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-50997 indicates a vulnerability in the specific model Netgear XR300 v1.0.3.78."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-50997&quot;" target="&quot;NETGEAR R6400 V2 1.0.4.128&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-50997 indicates a vulnerability in the specific model Netgear R6400 v2 1.0.4.128."</data>
+      <data key="d5">"vulnerability, product"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;CVE-2024-50997&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The event CVE-2024-50997 involves a vulnerability that can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;PYTHON-MULTIPART&quot;" target="&quot;CVE-2024-53981&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The CVE-2024-53981 identifies a vulnerability in python-multipart before version 0.0.18 leading to excessive logging and potential Denial of Service conditions."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;PYTHON-MULTIPART&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The excessive logging in python-multipart before 0.0.18 could lead to high CPU load and Denial of Service conditions due to malformed form data inputs."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;XD5E-24R AND XL5E-16T V3.5.3B&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.5</data>
+      <data key="d4">"The issue in XINJE's devices allows attackers to cause a Denial of Service (DoS) via crafted TCP messages."</data>
+      <data key="d5">"vulnerability exploitation, DoS"</data>
+      <data key="d6">chunk-a239421f2577102485f54c4bd98ae43a</data>
+    </edge>
+    <edge source="&quot;BITCOIN CORE&quot;" target="&quot;CVE-2024-52920&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The CVE-2024-52920 identifies a vulnerability in Bitcoin Core before version 0.20.0 leading to Denial of Service attacks through malformed GETDATA messages."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;BITCOIN CORE&quot;" target="&quot;CVE-2024-52918&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The CVE-2024-52918 identifies a vulnerability in Bitcoin-Qt before version 0.20.0 leading to Denial of Service attacks through large files via BIP21 r parameter."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;BITCOIN CORE&quot;" target="&quot;CVE-2024-52916&quot;">
+      <data key="d3">16.0</data>
+      <data key="d4">"Bitcoin Core, before version 0.15.0, is affected by CVE-2024-52916 which allows a denial of service (OOM kill) via flooding with minimum difficulty headers."&lt;SEP&gt;"The CVE-2024-52916 identifies a vulnerability in Bitcoin Core before version 0.15.0 leading to Denial of Service attacks through floods of minimum difficulty headers."</data>
+      <data key="d5">"vulnerability, denial of service"&lt;SEP&gt;"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491&lt;SEP&gt;chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </edge>
+    <edge source="&quot;BITCOIN CORE&quot;" target="&quot;CVE-2024-52915&quot;">
+      <data key="d3">16.0</data>
+      <data key="d4">"Bitcoin Core, before version 0.20.0, is affected by CVE-2024-52915 which allows remote attackers to cause a denial of service via crafted INV messages."&lt;SEP&gt;"The CVE-2024-52915 identifies a vulnerability in Bitcoin Core before version 0.20.0 leading to Denial of Service attacks through memory consumption."</data>
+      <data key="d5">"vulnerability, denial-of-service"&lt;SEP&gt;"vulnerability, memory consumption"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491&lt;SEP&gt;chunk-4f4c27fa1fbdfb2a440b76dc2bd2aa02</data>
+    </edge>
+    <edge source="&quot;BITCOIN CORE&quot;" target="&quot;DENIAL OF SERVICE (DOS)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Multiple vulnerabilities in Bitcoin Core versions before 0.20.0 and 0.15.0 can lead to Denial of Service conditions through various mechanisms including malformed messages, memory consumption, and header floods."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;DENIAL OF SERVICE (DOS)&quot;" target="&quot;NASA’S INTERPLANETARY OVERLAY NETWORK (ION)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The ION-DTN software had a segmentation fault in version 4.1.3 when receiving bundles with specific Destination Endpoint IDs, leading to a Denial of Service condition."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;DENIAL OF SERVICE (DOS)&quot;" target="&quot;NETGEAR R7000P V1.3.3.154&quot;">
+      <data key="d3">19.0</data>
+      <data key="d4">"A stack overflow vulnerability in the Netgear R7000P v1.3.3.154 allows attackers to cause a Denial of Service event via crafted POST requests targeting various parameters."&lt;SEP&gt;"The vulnerabilities in the specific model Netgear R7000P v1.3.3.154 can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability exploitation, cybersecurity threat"&lt;SEP&gt;"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-1d6dfb974f8b11a7b91e071b7ee33efd&lt;SEP&gt;chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;DENIAL OF SERVICE (DOS)&quot;" target="&quot;NETGEAR R8500 V1.0.2.160&quot;">
+      <data key="d3">19.0</data>
+      <data key="d4">"A stack overflow vulnerability in the Netgear R8500 v1.0.2.160 allows attackers to cause a Denial of Service event via crafted POST requests targeting various parameters."&lt;SEP&gt;"The vulnerabilities in the specific model Netgear R8500 v1.0.2.160 can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability exploitation, cybersecurity threat"&lt;SEP&gt;"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-1d6dfb974f8b11a7b91e071b7ee33efd&lt;SEP&gt;chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;DENIAL OF SERVICE (DOS)&quot;" target="&quot;NETGEAR XR300 V1.0.3.78&quot;">
+      <data key="d3">19.0</data>
+      <data key="d4">"A stack overflow vulnerability in the Netgear XR300 v1.0.3.78 allows attackers to cause a Denial of Service event via crafted POST requests targeting various parameters."&lt;SEP&gt;"The vulnerabilities in the specific model Netgear XR300 v1.0.3.78 can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability exploitation, cybersecurity threat"&lt;SEP&gt;"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-1d6dfb974f8b11a7b91e071b7ee33efd&lt;SEP&gt;chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;DENIAL OF SERVICE (DOS)&quot;" target="&quot;NANOPB&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The vulnerability in Nanopb before 0.4.9.1 could lead to memory leaks and potential Denial of Service conditions due to issues with the pb_decode_ex() function."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;DENIAL OF SERVICE (DOS)&quot;" target="&quot;NETGEAR R6400 V2 1.0.4.128&quot;">
+      <data key="d3">19.0</data>
+      <data key="d4">"A stack overflow vulnerability in the Netgear R6400 v2 1.0.4.128 allows attackers to cause a Denial of Service event via crafted POST requests targeting various parameters."&lt;SEP&gt;"The vulnerabilities in the specific model Netgear R6400 v2 1.0.4.128 can be exploited to cause a Denial of Service."</data>
+      <data key="d5">"vulnerability exploitation, cybersecurity threat"&lt;SEP&gt;"vulnerability, DoS attack"</data>
+      <data key="d6">chunk-1d6dfb974f8b11a7b91e071b7ee33efd&lt;SEP&gt;chunk-623fb2e8e0eefbec7f352595413b2334</data>
+    </edge>
+    <edge source="&quot;DENIAL OF SERVICE (DOS)&quot;" target="&quot;STALLD&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Stalld's vulnerability allows local users to cause a file overwrite, leading to a Denial of Service condition."</data>
+      <data key="d5">"vulnerability, denial-of-service"</data>
+      <data key="d6">chunk-3cdb3760961cb21b404731b983bfb491</data>
+    </edge>
+    <edge source="&quot;IVANTI AVALANCHE&quot;" target="&quot;CVE-2024-50318&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"The vulnerability CVE-2024-50318 is associated with Ivanti Avalanche before version 6.4.6."</data>
+      <data key="d5">"security issue, denial of service"</data>
+      <data key="d6">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </edge>
+    <edge source="&quot;IVANTI AVALANCHE&quot;" target="&quot;CVE-2024-50317&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"The vulnerability CVE-2024-50317 is associated with Ivanti Avalanche before version 6.4.6."</data>
+      <data key="d5">"security issue, denial of service"</data>
+      <data key="d6">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </edge>
+    <edge source="&quot;IVANTI AVALANCHE&quot;" target="&quot;CVE-2024-50319&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"The vulnerability CVE-2024-50319 is associated with Ivanti Avalanche before version 6.4.6."</data>
+      <data key="d5">"security issue, denial of service"</data>
+      <data key="d6">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </edge>
+    <edge source="&quot;IVANTI AVALANCHE&quot;" target="&quot;INFINITE LOOP VULNERABILITY&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"Versions of Ivanti Avalanche before 6.4.6 contain vulnerabilities leading to infinite loops that can cause denial of service conditions."</data>
+      <data key="d5">"security vulnerability"</data>
+      <data key="d6">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </edge>
+    <edge source="&quot;IVANTI AVALANCHE&quot;" target="&quot;DENIAL OF SERVICE&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"Vulnerabilities in Ivanti Avalanche versions before 6.4.6 can be exploited by remote unauthenticated attackers to cause a denial of service."</data>
+      <data key="d5">"security vulnerability, DoS"</data>
+      <data key="d6">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </edge>
+    <edge source="&quot;NETGEAR R7000P V1.3.3.154&quot;" target="&quot;CVE-2024-51020&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The CVE ID refers to a vulnerability in Netgear R7000P v1.3.3.154 that allows attackers to cause Denial of Service via crafted POST requests targeting the apn parameter at usbISP_detail_edit.cgi."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;NETGEAR R7000P V1.3.3.154&quot;" target="&quot;CVE-2024-51019&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The CVE ID refers to a vulnerability in Netgear R7000P v1.3.3.154 that allows attackers to cause Denial of Service via crafted POST requests targeting the pppoe_localnetmask parameter at pppoe.cgi."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;NETGEAR R7000P V1.3.3.154&quot;" target="&quot;CVE-2024-51018&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The CVE ID refers to a vulnerability in Netgear R7000P v1.3.3.154 that allows attackers to cause Denial of Service via crafted POST requests targeting the pptp_user_netmask parameter at pptp.cgi."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;NETGEAR R7000P V1.3.3.154&quot;" target="&quot;CVE-2024-51017&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The CVE ID refers to a vulnerability in Netgear R7000P v1.3.3.154 that allows attackers to cause Denial of Service via crafted POST requests targeting the l2tp_user_netmask parameter at l2tp.cgi."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;OPENSHIFT&quot;" target="&quot;CVE-2024-50311&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"The vulnerability CVE-2024-50311 is associated with OpenShift and affects its GraphQL batching functionality."</data>
+      <data key="d5">"security issue, denial of service"</data>
+      <data key="d6">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </edge>
+    <edge source="&quot;OPENSHIFT&quot;" target="&quot;DENIAL OF SERVICE&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"A flaw in OpenShift's GraphQL batching functionality allows attackers to send multiple queries within a single request, leading to excessive resource consumption and application unavailability for legitimate users."</data>
+      <data key="d5">"DoS vulnerability, resource exhaustion"</data>
+      <data key="d6">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </edge>
+    <edge source="&quot;LINUX KERNEL&quot;" target="&quot;CVE-2024-49974&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The vulnerability CVE-2024-49974 is associated with the Linux kernel and affects its handling of async COPY operations."</data>
+      <data key="d5">"security issue, denial of service"</data>
+      <data key="d6">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </edge>
+    <edge source="&quot;LINUX KERNEL&quot;" target="&quot;DENIAL OF SERVICE&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The Linux kernel has vulnerabilities in its handling of async COPY operations that can be exploited to cause denial of service attacks by limiting the number of concurrent background COPY operations."</data>
+      <data key="d5">"security vulnerability, DoS"</data>
+      <data key="d6">chunk-22dd96ad0e572f6ccee22c518bbc42d4</data>
+    </edge>
+    <edge source="&quot;NETGEAR XR300 V1.0.3.78&quot;" target="&quot;CVE-2024-51016&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The CVE ID refers to a vulnerability in Netgear XR300 v1.0.3.78 that allows attackers to cause Denial of Service via crafted POST requests targeting the addName%d parameter in usb_approve.cgi."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;NETGEAR XR300 V1.0.3.78&quot;" target="&quot;CVE-2024-51022&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The CVE ID refers to a vulnerability in Netgear XR300 v1.0.3.78 that allows attackers to cause Denial of Service via crafted POST requests targeting the ssid parameter in bridge_wireless_main.cgi."</data>
+      <data key="d5">"vulnerability discovery, denial-of-service"</data>
+      <data key="d6">chunk-f56944e367410f877ac6054c1062428c</data>
+    </edge>
+    <edge source="&quot;SCALANCE M876-4&quot;" target="&quot;ACCESS CONTROL ISSUE&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"The SCALANCE M876-4 devices improperly manage access control for read-only users, allowing attackers to cause a temporary denial of service condition."</data>
+      <data key="d5">"security vulnerability"</data>
+      <data key="d6">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </edge>
+    <edge source="&quot;APACHE CLOUDSTACK&quot;" target="&quot;TEMPLATE REGISTRATION VULNERABILITY&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Versions of Apache CloudStack are affected by vulnerabilities due to missing validation checks when registering templates, which could lead to exploitation and compromise of KVM-based environments."</data>
+      <data key="d5">"vulnerability, security risk"</data>
+      <data key="d6">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </edge>
+    <edge source="&quot;SCALANCE MUM853-1&quot;" target="&quot;ACCESS CONTROL ISSUE&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"The SCALANCE MUM853-1 devices improperly manage access control for read-only users, allowing attackers to cause a temporary denial of service condition."</data>
+      <data key="d5">"security vulnerability"</data>
+      <data key="d6">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </edge>
+    <edge source="&quot;SCALANCE MUM856-1&quot;" target="&quot;ACCESS CONTROL ISSUE&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"The SCALANCE MUM856-1 devices improperly manage access control for read-only users, allowing attackers to cause a temporary denial of service condition."</data>
+      <data key="d5">"security vulnerability"</data>
+      <data key="d6">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </edge>
+    <edge source="&quot;SCALANCE S615 EEC LAN-ROUTER&quot;" target="&quot;ACCESS CONTROL ISSUE&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"The SCALANCE S615 EEC LAN-Router devices improperly manage access control for read-only users, allowing attackers to cause a temporary denial of service condition."</data>
+      <data key="d5">"security vulnerability"</data>
+      <data key="d6">chunk-c9dc2219d93419f797515e07e773233f</data>
+    </edge>
+  </graph>
+</graphml>

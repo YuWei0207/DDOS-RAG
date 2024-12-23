@@ -1,0 +1,12 @@
+{
+  "naive": {
+    "a4ff71773f5c7032799f236a1cadd1e3": {
+      "return": "Based on the information provided, there is no CVE with the ID `CVE-2024-53981`. The document contains multiple entries for other CVEs related to various vulnerabilities in different products such as Netgear routers and HPE NonStop DISK UTIL, but does not include any details about `CVE-2024-53981`.\n\nIf you need information on specific vulnerabilities or have another CVE ID that needs clarification, please provide the correct identifier or additional context.",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "What are the cve-2024-53981?"
+    }
+  }
+}
